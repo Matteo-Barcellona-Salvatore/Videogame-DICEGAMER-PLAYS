@@ -567,8 +567,7 @@ var myGameArea = {
     drawSettings: function() {
         var ctx = this.context;
 
-        // Center the whole "How to Play" panel (title + lines + back button)
-        // vertically on the canvas, instead of anchoring it near the top.
+
         var lineGap = 58;
         var titleToFirstLine = 140;
         var blockHeight = titleToFirstLine + (this.settingsLines.length - 1) * lineGap;
